@@ -7,6 +7,8 @@
 name: gpu-sim
 
 on:
+  push:
+    branches: [verify-gpu-sim]
   workflow_dispatch:
   pull_request:
     branches: [master]
